@@ -1,0 +1,8 @@
+name: 'Deploy to AWS S3'
+description: 'Deploy a static website via AWS S3'
+runs:
+  using: 'node20'
+  # pre here for setup
+  main: 'main.js'
+  # post here for cleanup
+  
